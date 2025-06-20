@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+.songCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+}
+
+.imageContainer {
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 300px;
+        background: 171717;
+        background: linear-gradient(180deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+        padding: 20px;
+        transition: all 0.3s ease;
+        font-size: 32px;
+        font-family: 'Racing Sans One', cursive;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .question {
+        font-size: 24px;
+        line-height: .9;
+    }
+
+    .revealText {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Rethink Sans', sans-serif;
+    }
+
+    .revealed {
+        font-size: 50px;
+        font-weight: 400;
+    }
+}
+
+    .songTitle {
+        font-weight: 600;
+        font-size: 26px;
+        font-family: 'Rethink Sans', sans-serif;
+    }
+    .songAuthor {
+        font-weight: 400;
+        font-size: 23px;
+        font-family: 'Rethink Sans', sans-serif;
+    }

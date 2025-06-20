@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+.musicPlayer {
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 50px;
+    gap: 20px;
+}
+
+.counter {
+    position: absolute;
+    top: 40px;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-self: flex-start;
+}
+
+.controls {
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+
+.playPause {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #D9D9D9;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.playIcon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle {
+  position: absolute;
+  left: -15px;
+  width: 0;
+  height: 0;
+  border-left: 37px solid #223547;
+  border-top: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+}
+
+.pauseIcon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  gap: 8px;
+  width: 80px;
+  height: 80px;
+  background-color: #D9D9D9;
+  div {
+    width: 10px;
+    height: 37px;
+    background-color: #223547;
+  }
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.nextButton {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 70%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+  gap: 1px;
+  cursor: pointer;
+}
+
+.nextTriangle {
+  width: 0;
+  height: 0;
+  border-left: 15px solid #223547;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.nextBar {
+  width: 5px;
+  height: 20px;
+  background-color: #223547;
+}

@@ -1,0 +1,587 @@
+[
+  {
+    "id": 1,
+    "title": "Slučajna cesta",
+    "artist": "Svemirko",
+    "year": 2018,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27385138185b88c2892a84b8257",
+    "youtubeId": "cmTBzlDWHVE",
+    "duration": 112
+  },
+  {
+    "id": 2,
+    "title": "Idemo do hodnika",
+    "artist": "Buč Kesidi",
+    "year": 2019,
+    "imageUrl": "https://i.scdn.co/image/ab67616d00001e0236d8d0ab84e7b112ed090b44",
+    "youtubeId": "zzvJEju26Xs",
+    "duration": 140
+  },
+  {
+    "id": 3,
+    "title": "Doživjeti stotu",
+    "artist": "Bijelo dugme",
+    "year": 1980,
+    "imageUrl": "https://ezop-antikvarijat.hr/wp-content/uploads/2019/11/Dozivjetistotu1.png",
+    "youtubeId": "Zje8gat-VWI",
+    "duration": 196
+  },
+  {
+    "id": 4,
+    "title": "Danas sam luda",
+    "artist": "Josipa Lisac",
+    "year": 1987,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730b41139580eb94f3754ebe9c",
+    "youtubeId": "p_DfWKhbTSw",
+    "duration": 199
+  },
+{
+    "id": 5,
+    "title": "Tako lijepa",
+    "artist": "Boa",
+    "year": 1992,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732ce186097e43207743ed702a",
+    "youtubeId": "gWLonCInb9o",
+    "duration": 229
+},
+{
+    "id": 6,
+    "title": "Igra rokenrol cela Jugoslavija",
+    "artist": "Električni orgazam",
+    "year": 1988,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736670bc9a44191415ffceb9a4",
+    "youtubeId": "WfuJ-Q8FEsU",
+    "duration": 230
+},
+{
+    "id": 7,
+    "title": "Ljubav se zove imenom tvojim",
+    "artist": "Dino Dvornik",
+    "year": 1988,
+    "imageUrl": "https://i1.sndcdn.com/artworks-un1D8Y5FsXoo-0-t500x500.jpg",
+    "youtubeId": "PSjOMr6vzJg",
+    "duration": 274
+},
+{
+    "id": 8,
+    "title": "Sretan rođendan",
+    "artist": "Fantomi",
+    "year": 1992,
+    "imageUrl": "https://cdn-images.dzcdn.net/images/cover/d175f8fcdffef0a047f662b665e18cff/0x1900-000000-80-0-0.jpg",
+    "youtubeId": "d82BPHicxQQ",
+    "duration": 207
+},
+{
+    "id": 9,
+    "title": "Kad uistinu voliš ženu",
+    "artist": "Davor Radolfi & Ritmo Loco",
+    "year": 1996,
+    "imageUrl": "https://i.scdn.co/image/ab67616d00001e02f5020619f658527db17ed742",
+    "youtubeId": "OvIqUElw1jE",
+    "duration": 281
+},
+{
+    "id": 10,
+    "title": "A gdje je ljubav",
+    "artist": "Parni valjak",
+    "year": 1997,
+    "imageUrl": "https://i.scdn.co/image/ab67616d00001e02ff47957402696ed3b43e68ee",
+    "youtubeId": "4VOCHs7btGc",
+    "duration": 313
+},
+{
+    "id": 11,
+    "title": "Stol za dvoje",
+    "artist": "Duško Lokin",
+    "year": 1974,
+    "imageUrl": "https://i.ytimg.com/vi/g3L1RpDzdjA/hqdefault.jpg",
+    "youtubeId": "NIN0CrZOx24",
+    "duration": 167
+},
+{
+    "id": 12,
+    "title": "Ne dirajte mi ravnicu",
+    "artist": "Miroslav Škoro",
+    "year": 2003,
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/87/2d/4e872d45-2753-af19-8ee0-4907f7e2a8f0/3859891274611.jpg/600x600bf-60.jpg",
+    "youtubeId": "tGMIs13fJSk",
+    "duration": 220
+},
+{
+    "id": 13,
+    "title": "Sinovi atara",
+    "artist": "Ivica Brandibur",
+    "year": 2010,
+    "imageUrl": "https://crorec.net/wp-content/uploads/2019/06/Sinovi-atara.jpg",
+    "youtubeId": "9mRzqZYiN3Q",
+    "duration": 278
+},
+{
+    "id": 14,
+    "title": "Piši mi",
+    "artist": "Drugi način",
+    "year": 1983,
+    "imageUrl": "https://i.scdn.co/image/ab67616d00001e02fccaea92d4767ca4bb56a357",
+    "youtubeId": "z1aKQXtB1xA",
+    "duration": 190
+},
+{
+    "id": 15,
+    "title": "Samo simpatija",
+    "artist": "Meri Cetinić",
+    "year": 1978,
+    "imageUrl": "https://www.mericetinic.com/Grupa%20MORE/Samo%20simpatija.jpg",
+    "youtubeId": "3In6v9lEEFQ",
+    "duration": 210
+},
+{
+    "id": 16,
+    "title": "Kolačići",
+    "artist": "Marina Perazić",
+    "year": 1987,
+    "imageUrl": "https://images.genius.com/eaf549714a02df65804739a445987fa1.1000x1000x1.png",
+    "youtubeId": "GE7OAqBAZd4",
+    "duration": 195
+},
+{
+    "id": 17,
+    "title": "Ja sam vlak",
+    "artist": "Emilija Kokić i Nina Badrić",
+    "year": 1996,
+    "imageUrl": "https://images.genius.com/d0f13eaa72dea249e299000ebc02c683.994x1000x1.png",
+    "youtubeId": "HEvJHGNTXl4",
+    "duration": 269
+},
+{
+    "id": 18,
+    "title": "Moj mali je opasan",
+    "artist": "Tajči",
+    "year": 1992,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27377ab061605295a22a3ab837c",
+    "youtubeId": "Sz6WDfZiol0",
+    "duration": 187
+},
+{
+    "id": 19,
+    "title": "365",
+    "artist": "Saša, Tin i Kedžo",
+    "year": 2004,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/hr/2/2c/Sa%C5%A1a%2C_Tin%2C_Ked%C5%BEo_-_Instant.png",
+    "youtubeId": "qZQbyr4hTJw",
+    "duration": 228
+},
+{
+    "id": 20,
+    "title": "U mojoj ulici",
+    "artist": "Kuzma i Shaka Zulu",
+    "year": 1994,
+    "imageUrl": "https://i.scdn.co/image/ab67616d00001e02608d697b80dbd8883de7b9fa",
+    "youtubeId": "zW6zmQLaJl4",
+    "duration": 208
+},
+{
+    "id": 21,
+    "title": "Jedina moja",
+    "artist": "Divlje jagode",
+    "year": 1978,
+    "imageUrl": "https://i1.sndcdn.com/artworks-000104438057-y21h4z-t500x500.jpg",
+    "youtubeId": "LOpmIko1roU",
+    "duration": 323
+},
+{
+    "id": 22,
+    "title": "Tužna su zelena polja",
+    "artist": "Pro Arte",
+    "year": 1975,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO4hgZMKGZITVEr2m307CoxvfNzm-WmqolXw&s",
+    "youtubeId": "opiu5vxUKz0",
+    "duration": 192
+},
+{
+    "id": 23,
+    "title": "Džemper za vinograd",
+    "artist": "Miladin Šobić",
+    "year": 1981,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731a3a1046029b520b27a8c77d",
+    "youtubeId": "Behl0fsX0dQ",
+    "duration": 246
+},
+{
+    "id": 24,
+    "title": "Treba imat dušu",
+    "artist": "Atomsko sklonište",
+    "year": 1982,
+    "imageUrl": "https://cdn-images.dzcdn.net/images/cover/1958b29f032ac901083e6eb6511ab604/1900x1900-000000-80-0-0.jpg",
+    "youtubeId": "cpsD2Sx4TGk",
+    "duration": 250
+},
+{
+    "id": 25,
+    "title": "Kad hodaš",
+    "artist": "Riblja čorba",
+    "year": 1984,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfooEIL-V_Npr5PH0u__47d7gMqrEFlSeekQ&s",
+    "youtubeId": "SOdDIwYA-10",
+    "duration": 243
+},
+{
+    "id": 26,
+    "title": "Princeza",
+    "artist": "Slađana Milošević & Dado Topić",
+    "year": 1996,
+    "imageUrl": "https://e.snmc.io/i/1200/s/984e64b467576c91f16cf51bff539092/2099336",
+    "youtubeId": "-aSLpIV5uRM",
+    "duration": 179
+},
+{
+    "id": 27,
+    "title": "Ćaletova pesma",
+    "artist": "Đorđe Balašević",
+    "year": 1989,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27364ef8a839b33bfedecd35dd7",
+    "youtubeId": "g2Im8G2TZ50",
+    "duration": 288
+},
+{
+    "id": 28,
+    "title": "Kao kakao",
+    "artist": "Leb i sol",
+    "year": 1987,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRimBRzAAqksFeTPGvyC42_Uqkx_XJlPy5VnQ&s",
+    "youtubeId": "2IfD_YIXX30",
+    "duration": 252
+},
+{
+    "id": 29,
+    "title": "Ti si sav moj bol",
+    "artist": "Ekatarina Velika",
+    "year": 1986,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f103e8dda6d4345da3509360",
+    "youtubeId": "G36xFrDzeEM",
+    "duration": 226
+},
+{
+    "id": 30,
+    "title": "Dida moj",
+    "artist": "Arsen Dedić",
+    "year": 2014,
+    "imageUrl": "https://webshop.crorec.hr/wp-content/uploads/2020/10/3850125706793.jpg",
+    "youtubeId": "XT2MMbR34wY",
+    "duration": 167
+},
+{
+    "id": 31,
+    "title": "Samo jednom se ljubi",
+    "artist": "Ivo Robić",
+    "year": 1981,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273eed7b6b907df4f2198a38e2b",
+    "youtubeId": "yHVoHEXaZGs",
+    "duration": 143
+},
+{
+    "id": 32,
+    "title": "Ti si moj hit",
+    "artist": "Grupa 777",
+    "year": 1982,
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/4c/96/25/4c962577-a366-f9f9-b9e4-e9729e822beb/3850126058310.jpg/1200x630bb.jpg",
+    "youtubeId": "LOf1jYLuqZM",
+    "duration": 191
+},
+{
+    "id": 33,
+    "title": "Da sam ja netko",
+    "artist": "Indexi",
+    "year": 1971,
+    "imageUrl": "https://images.genius.com/76a31b2cc010c56ca52fc684ab2b9c0a.1000x1000x1.png",
+    "youtubeId": "jm5OE99C_MQ",
+    "duration": 237
+},
+{
+    "id": 34,
+    "title": "Nogometna utakmica",
+    "artist": "Beti Jurković",
+    "year": 1963,
+    "imageUrl": "https://i.ytimg.com/vi/-15zq6S8fDE/hqdefault.jpg",
+    "youtubeId": "-15zq6S8fDE",
+    "duration": 126
+},
+{
+    "id": 35,
+    "title": "Kao mačka",
+    "artist": "Fit",
+    "year": 1988,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27324b2119da333b00848b64958",
+    "youtubeId": "TJyJBSOe0F8",
+    "duration": 235
+},
+{
+    "id": 36,
+    "title": "Ni da ni ne",
+    "artist": "Kawasaki 3P",
+    "year": 2009,
+    "imageUrl": "https://images.genius.com/11978f929e42432077c3994a20c967fe.535x535x1.jpg",
+    "youtubeId": "QefXAkhWxXE",
+    "duration": 264
+},
+{
+    "id": 37,
+    "title": "Buđav lebac",
+    "artist": "S.A.R.S.",
+    "year": 2009,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27350f60433a8ea3e0fe79b3c8b",
+    "youtubeId": "YAMClna5m8k",
+    "duration": 207
+},
+{
+    "id": 38,
+    "title": "Plava pesma",
+    "artist": "Smak",
+    "year": 1977,
+    "imageUrl": "https://cdn-images.dzcdn.net/images/cover/ecd673006c3258d72381c77adefc182d/1900x1900-000000-80-0-0.jpg",
+    "youtubeId": "9AuQOr4A3_Q",
+    "duration": 268
+},
+{
+    "id": 39,
+    "title": "Bio jednom jedan pas",
+    "artist": "YU grupa",
+    "year": 1976,
+    "imageUrl": "https://i.scdn.co/image/ab67616d00001e02a54c88cf97ac815b59de7d30",
+    "youtubeId": "YQQCFi_0jjQ",
+    "duration": 189
+},
+{
+    "id": 40,
+    "title": "Uvijek kad ostanem sam",
+    "artist": "Grupa 220",
+    "year": 1967,
+    "imageUrl": "https://images.genius.com/3b283961e3cd5f9c0151ae283e27b67b.800x800x1.png",
+    "youtubeId": "8aF4Fwfj1NM",
+    "duration": 133
+},
+{
+    "id": 41,
+    "title": "Lutka sa naslovne strane",
+    "artist": "Zabranjeno pušenje",
+    "year": 1985,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27337c31b12640762c1904b9a02",
+    "youtubeId": "u147LwSzR7g",
+    "duration": 216
+},
+{
+    "id": 42,
+    "title": "Ante",
+    "artist": "Severina",
+    "year": 1999,
+    "imageUrl": "https://images.genius.com/6b7fe62d0081184c1f8af133471df6ef.1000x1000x1.jpg",
+    "youtubeId": "et7c5r7gcKg",
+    "duration": 187
+},
+{
+    "id": 43,
+    "title": "Pusti, pusti modu",
+    "artist": "Zdravko Čolić",
+    "year": 1980,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ce1a26d8f46cda0112f00d79",
+    "youtubeId": "ZBDLidj5ahA",
+    "duration": 248
+},
+{
+    "id": 44,
+    "title": "Đeni",
+    "artist": "Oliver Dragojević",
+    "year": 1988,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27323fa23034c88d51e82e541ca",
+    "youtubeId": "fhDnqeUX0L8",
+    "duration": 295
+},
+{
+    "id": 45,
+    "title": "Nekako s proljeća",
+    "artist": "Crvena jabuka i Kemal Monteno",
+    "year": 1991,
+    "imageUrl": "https://crvena-jabuka.com/wp-content/uploads/2018/11/1991.jpg",
+    "youtubeId": "-vzYdtCDAfY",
+    "duration": 289
+},
+{
+    "id": 46,
+    "title": "Selma",
+    "artist": "Bijelo dugme",
+    "year": 1973,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27330f6d86d1aeadafa930aa2ce",
+    "youtubeId": "pA41yXflWk0",
+    "duration": 343
+},
+{
+    "id": 47,
+    "title": "Žute dunje",
+    "artist": "Indexi",
+    "year": 1989,
+    "imageUrl": "https://cdn-images.dzcdn.net/images/cover/e42ae944e052cdc2a4bbaa62cd608b1e/1900x1900-000000-80-0-0.jpg",
+    "youtubeId": "D5bBEQp1xUM",
+    "duration": 260
+},
+{
+    "id": 48,
+    "title": "Devojko mala",
+    "artist": "Idoli",
+    "year": 1981,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlBxLHoak6zDn02_89NmFF-IjknjxL3Eexhg&s",
+    "youtubeId": "Bmryqb5Oyp0",
+    "duration": 126
+},
+{
+    "id": 49,
+    "title": "Dodirni mi kolena",
+    "artist": "Zana",
+    "year": 1982,
+    "imageUrl": "https://cdn-images.dzcdn.net/images/cover/bf62b9c2da3acbfea9df3db56a8dc5ba/0x1900-000000-80-0-0.jpg",
+    "youtubeId": "dhFnV18kdC0",
+    "duration": 250
+},
+{
+    "id": 50,
+    "title": "Da mi je biti morski pas",
+    "artist": "Metak",
+    "year": 1995,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ZeKKOLDEU1DyBFbq4LBIKeM5PoSboCykWQ&s",
+    "youtubeId": "6SkrsuOi9hc",
+    "duration": 192
+},
+{
+    "id": 51,
+    "title": "Nježne strune mandoline",
+    "artist": "Tereza Kesovija",
+    "year": 1975,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2z97jdJjPpkI1Wqe5tKVhd-qyaLOFzz4Vtw&s",
+    "youtubeId": "TM0DkB45v54",
+    "duration": 214
+},
+{
+    "id": 52,
+    "title": "Što si mi u kavu stavila",
+    "artist": "Pađen band",
+    "year": 1993,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27357e9604e0b903b4a38cb0ca3",
+    "youtubeId": "YLAss7af1-w",
+    "duration": 211
+},
+{
+    "id": 53,
+    "title": "Put ka sreći",
+    "artist": "Goran Bare i Plaćenici",
+    "year": 2001,
+    "imageUrl": "https://i.scdn.co/image/ab67616d00001e02c9de9c94efe8c93e711ab799",
+    "youtubeId": "AUpJ55XJFTg",
+    "duration": 216
+},
+{
+    "id": 54,
+    "title": "Možeš imat moje tijelo",
+    "artist": "Zabranjeno pušenje",
+    "year": 1996,
+    "imageUrl": "https://images.genius.com/f627f89fec4f77ad6500f93b61f20cb1.1000x1000x1.png",
+    "youtubeId": "GqiCKuxPT0A",
+    "duration": 292
+},
+{
+    "id": 55,
+    "title": "Barbara",
+    "artist": "Fantom",
+    "year": 2021,
+    "imageUrl": "https://f4.bcbits.com/img/a0332690935_10.jpg",
+    "youtubeId": "kFTvvNJz6gI",
+    "duration": 126
+},
+{
+    "id": 56,
+    "title": "Da sutra umrem",
+    "artist": "Vesna Pisarović",
+    "year": 2001,
+    "imageUrl": "https://images.genius.com/6639539efac23d23ee8b132a908fa081.1000x1000x1.jpg",
+    "youtubeId": "-RQrcvsL9Yc",
+    "duration": 206
+},
+{
+    "id": 57,
+    "title": "Noć je prekrasna",
+    "artist": "Daleka obala",
+    "year": 1990,
+    "imageUrl": "https://images.genius.com/3bab5392a03fbd0834172eb3c1692bec.1000x1000x1.png",
+    "youtubeId": "jwmbkhWqmTQ",
+    "duration": 241
+},
+{
+    "id": 58,
+    "title": "Zbog jedne divne crne žene",
+    "artist": "Krunoslav Kićo Slabinac",
+    "year": 1974,
+    "imageUrl": "https://cdn-images.dzcdn.net/images/cover/b341adf4d4bcec509a5cdb5b9ddc8cbb/1900x1900-000000-80-0-0.jpg",
+    "youtubeId": "n1LIrn6yZ_c",
+    "duration": 253
+},
+{
+    "id": 59,
+    "title": "Moja mala na popravni pala",
+    "artist": "Cod",
+    "year": 1977,
+    "imageUrl": "https://i1.sndcdn.com/artworks-000085592972-b78hn0-t500x500.jpg",
+    "youtubeId": "ciLd5d0V2k8",
+    "duration": 272
+},
+{
+    "id": 60,
+    "title": "Ostala si uvijek ista",
+    "artist": "Mišo Kovač",
+    "year": 1985,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730a58a7ffa4c5147a735c71b2",
+    "youtubeId": "fY6HaDYRbi4",
+    "duration": 239
+},
+{
+    "id": 61,
+    "title": "Za koji život treba da se rodim",
+    "artist": "Time",
+    "year": 1972,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnk9vl5xNPh-WrTSzV8yf1nHx2QFjCk4ZGA&s",
+    "youtubeId": "QF3WVcIxaoQ",
+    "duration": 603
+},
+{
+    "id": 62,
+    "title": "Troje",
+    "artist": "Xenia",
+    "year": 1984,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIm26OcjoN28lLLrsYLXCvSxcIKxpgkimcCQ&s",
+    "youtubeId": "iMzrS1dx1t8",
+    "duration": 230
+},
+{
+    "id": 63,
+    "title": "Koliko imaš godina",
+    "artist": "U škripcu",
+    "year": 1983,
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27390475402e2122d7851d1c662",
+    "youtubeId": "vyEHX74Wg5Y",
+    "duration": 252
+},
+{
+    "id": 64,
+    "title": "Dva dinara, druže",
+    "artist": "Riblja čorba",
+    "year": 1983,
+    "imageUrl": "https://images.genius.com/cc56144c139b3ad701142418856ee28b.1000x1000x1.png",
+    "youtubeId": "2sMpNA-RXJw",
+    "duration": 235
+},
+{
+    "id": 65,
+    "title": "Evergreen",
+    "artist": "Šajeta",
+    "year": 2003,
+    "imageUrl": "https://i.scdn.co/image/ab67616d00001e02e6f0865865c60cccbe5e161e",
+    "youtubeId": "5hqa6uJcC0I",
+    "duration": 283
+}
+]

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+.startContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 50px;
+    gap: 30px;
+}
+
+.heading {
+    color: white;
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: .9;
+    margin: 10px auto;
+}
+
+.text {
+    font-family: 'Rethink Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.startButton {
+    position: relative;
+    background-color: #223547;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 165px;
+    height: 52px;
+    border-radius: 100px;
+    cursor: pointer;
+    &:hover  {
+        .arrow {
+            right: 30px;
+        }
+    }
+}
+
+.btn {
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 400;
+    font-size: 22px;
+    position: absolute;
+    top: 48%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+
+.arrow {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 36px;
+    transition: right 0.3s ease-in-out;
+}

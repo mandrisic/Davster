@@ -1,0 +1,27 @@
+.progressBar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 90%;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+
+.barContainer {
+  flex: 1;
+}
+
+.bar {
+  background-color: #ddd;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress {
+  background-color: #2d86ff;
+  height: 100%;
+  width: 0;
+  transition: width 0.3s ease;
+}
