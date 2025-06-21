@@ -2,22 +2,21 @@
 
 .musicPlayer {
   position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 50px;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 50px 50px 50px;
+  gap: 10px;
 }
 
 .counter {
-    position: absolute;
-    top: 40px;
-    font-size: 18px;
-    font-weight: 200;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-self: flex-start;
+  position: absolute;
+  top: 30px;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: 'Rethink Sans', sans-serif;
+  justify-self: flex-start;
 }
 
 .controls {
@@ -27,7 +26,7 @@
 }
 
 .playPause {
-  position: absolute;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -41,42 +40,71 @@
   transition: transform 0.2s ease;
 }
 
-.playIcon {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .triangle {
   position: absolute;
-  left: -15px;
   width: 0;
   height: 0;
   border-left: 37px solid #223547;
   border-top: 22px solid transparent;
   border-bottom: 22px solid transparent;
+  margin-left: 10px;
 }
 
+.pauseIcon div {
+  width: 10px;
+  height: 37px;
+  background-color: #223547;
+}
+
+.playPause.playing .playIcon {
+  opacity: 0;
+  z-index: 1;
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+.playPause.playing .pauseIcon {
+  opacity: 1;
+  z-index: 2;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.playIcon,
 .pauseIcon {
   position: absolute;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  background-color: #d9d9d9;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.playIcon {
+  opacity: 1;
+  z-index: 2;
+}
+
+.pauseIcon {
+  opacity: 0;
+  z-index: 1;
   gap: 8px;
-  width: 80px;
-  height: 80px;
-  background-color: #D9D9D9;
-  div {
-    width: 10px;
-    height: 37px;
-    background-color: #223547;
-  }
-  cursor: pointer;
-  transition: transform 0.2s ease;
+}
+
+.playPause.playing .playIcon {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.8);
+  z-index: 1;
+}
+
+.playPause.playing .pauseIcon {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 2;
 }
 
 .nextButton {
@@ -107,4 +135,15 @@
   width: 5px;
   height: 20px;
   background-color: #223547;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  pointer-events: none; /* da se ne klikne dok je fadeOut */
 }

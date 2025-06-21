@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
+import ReactPlayer from 'react-player';
 import songsData from '../../../data.json';
 import Card from '../Card/Card';
 import ProgressBar from '../ProgressBar/ProgressBar';
@@ -11,8 +12,10 @@ export default function MusicPlayer() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isRevealed, setIsRevealed] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
-  const [intervalId, setIntervalId] = useState(null);
+
+  const playerRef = useRef(null);
 
   useEffect(() => {
     const shuffled = songsData.sort(() => Math.random() - 0.5);
@@ -20,38 +23,45 @@ export default function MusicPlayer() {
   }, []);
 
   const handlePlayPause = () => {
-    if (isPlaying) {
-      clearInterval(intervalId);
-      setIsPlaying(false);
-    } else {
-      const id = setInterval(() => {
-        setCurrentTime(prev => {
-          if (prev < songs[currentIndex].duration) return prev + 1;
-          clearInterval(id);
-          return prev;
-        });
-      }, 1000);
-      setIntervalId(id);
-      setIsPlaying(true);
-    }
+    setIsPlaying(prev => !prev);
   };
 
-  const handleNext = () => {
-    clearInterval(intervalId);
+const handleNext = () => {
+  if (isTransitioning) return;
+
+  setIsTransitioning(true);
+
+  setTimeout(() => {
     if (currentIndex + 1 < songs.length) {
       setCurrentIndex(prev => prev + 1);
       setIsPlaying(false);
       setIsRevealed(false);
       setCurrentTime(0);
+      setIsTransitioning(false);
     } else {
-      navigate('/end');
+      handleEndGame();
     }
+  }, 500);
+};
+
+  const handleProgress = (state) => {
+    setCurrentTime(state.playedSeconds);
   };
+
+  const handleEndGame = () => {
+  if (isTransitioning) return;
+
+  setIsTransitioning(true);
+
+  setTimeout(() => {
+    navigate('/end');
+  }, 500);
+};
 
   if (songs.length === 0) return <div>Učitavanje...</div>;
 
   return (
-    <div className={styles.musicPlayer}>
+    <div className={`${styles.musicPlayer} ${isTransitioning ? styles.fadeOut : styles.fadeIn}`}>
       <p className={styles.counter}>{currentIndex + 1} / {songs.length}</p>
 
       <Card
@@ -63,10 +73,11 @@ export default function MusicPlayer() {
       <ProgressBar
         currentTime={currentTime}
         duration={songs[currentIndex].duration}
+        onSeek={time => playerRef.current.seekTo(time)}
       />
 
       <div className={styles.controls}>
-        <div className={styles.playPause} onClick={handlePlayPause}>
+        <div className={`${styles.playPause} ${isPlaying ? styles.playing : ''}`} onClick={handlePlayPause}>
           {isPlaying ? (
             <div className={styles.pauseIcon}>
               <div></div>
@@ -85,16 +96,17 @@ export default function MusicPlayer() {
         </div>
       </div>
 
-      {isPlaying && (
-        <iframe
-          width="0"
-          height="0"
-          src={`https://www.youtube.com/embed/${songs[currentIndex].youtubeId}?autoplay=1`}
-          title="YouTube player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe>
-      )}
+      <ReactPlayer
+        ref={playerRef}
+        url={`https://www.youtube.com/watch?v=${songs[currentIndex].youtubeId}`}
+        playing={isPlaying}
+        onProgress={handleProgress}
+        width="0"
+        height="0"
+        controls={false}
+        onReady={() => console.log('Player spreman')}
+        onError={e => console.log('Greška u playeru', e)}
+      />
     </div>
   );
 }

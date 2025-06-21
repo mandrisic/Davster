@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+.endContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  color: white;
+  font-family: 'Rethink Sans', sans-serif;
+  height: 100vh;
+  background: linear-gradient(180deg, #223547 0%, #386288 100%);
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.heading {
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.imagesContainer {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.davorImage {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  object-fit: cover;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.selected {
+  border-color: #2d86ff;
+  transform: scale(1.2);
+}
+
+.message {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.endButton {
+    position: relative;
+    background-color: #223547;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 225px;
+    height: 52px;
+    border-radius: 100px;
+    cursor: pointer;
+    &:hover  {
+        .arrow {
+            right: 30px;
+        }
+    }
+}
+
+.btn {
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 48%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+
+.arrow {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 36px;
+    transition: right 0.3s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}

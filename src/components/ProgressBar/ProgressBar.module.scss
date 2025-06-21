@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
 .progressBar {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  width: 90%;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
   max-width: 500px;
   margin: 1rem auto;
+  font-family: 'Rethink Sans', sans-serif;
 }
 
 .barContainer {

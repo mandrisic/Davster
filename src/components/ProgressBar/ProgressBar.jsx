@@ -1,22 +1,26 @@
 import styles from './ProgressBar.module.scss';
 
-export default function ProgressBar({ currentTime, duration }) {
+export default function ProgressBar({ currentTime, duration, onSeek }) {
   const progressPercentage = (currentTime / duration) * 100;
 
-  const formatTime = (seconds) => {
-    const min = Math.floor(seconds / 60);
-    const sec = seconds % 60;
-    return `${min}:${sec < 10 ? '0' + sec : sec}`;
-  };
+  function formatTime(seconds) {
+  const secs = Math.floor(seconds);
+  const mins = Math.floor(secs / 60);
+  const remSecs = secs % 60;
+  return `${mins}:${remSecs < 10 ? '0' : ''}${remSecs}`;
+}
 
   return (
     <div className={styles.progressBar}>
       <span>{formatTime(currentTime)}</span>
-      <div className={styles.barContainer}>
-        <div className={styles.bar}>
-          <div className={styles.progress} style={{ width: `${progressPercentage}%` }}></div>
-        </div>
-      </div>
+       <input
+        type="range"
+        min="0"
+        max={Math.floor(duration)}
+        value={Math.floor(currentTime)}
+        onChange={e => onSeek && onSeek(Number(e.target.value))}
+        className={styles.progressSlider}
+      />
       <span>{formatTime(duration)}</span>
     </div>
   );

@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px
+    gap: 20px
 }
 
 .imageContainer {
@@ -50,13 +50,15 @@
     }
 }
 
-    .songTitle {
-        font-weight: 600;
-        font-size: 26px;
-        font-family: 'Rethink Sans', sans-serif;
-    }
-    .songAuthor {
-        font-weight: 400;
-        font-size: 23px;
-        font-family: 'Rethink Sans', sans-serif;
-    }
+.songTitle {
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Rethink Sans', sans-serif;
+    margin-bottom: 5px;
+}
+
+.songAuthor {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Rethink Sans', sans-serif;
+}
